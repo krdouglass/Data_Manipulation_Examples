@@ -81,6 +81,12 @@ gapminder %>%
 gapminder %>%
   dplyr::select("country", "pop")#dplry:: is just to tell it to use the select function from the dplyr package
 
+# rename function: -------------------------------------------------------
+
+# this is can be used to rename a column to something more convient
+gapminder %>%
+  rename(population = pop)
+
 
 # mutate function: --------------------------------------------------------
 
